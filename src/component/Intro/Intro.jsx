@@ -50,9 +50,17 @@ const Intro = () => {
         <div style={{top: '18rem', left: '0rem'}}>
           < FloatingDiv image={Thumbup} Text="Hello World"/>
         </div>
+
+        <div className="blur" style={{background: "rgb (238 210 255)"}}></div>
+
+        <div className="blur" style={{
+          background: '#C1F5FF',
+          top: '17rem',
+          width: '21rem',
+          height: '11rem',
+          left: '-9rem'
+      }}></div>
         </div>
-          {/* 
-          <img src={Thumbup}/> */}
     </div>
   )
 }
