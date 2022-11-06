@@ -1,15 +1,33 @@
 import React from 'react'
 import './Service.css'
+import HeartEmoji from '../../img/heartemoji.png'
+import Glasses from "../../img/glasses.png"
+import Humble from "../../img/humble.png"
+import Card from '../Card/Card'
+
 const Service = () => {
   return (
     <div className="service">
         {/* Left Side */}
         <div className="About">
-            <span>My Projects</span>
+            <span>My</span>
+            <span>Projects</span>
             <span>
                 About........................<br>
                 </br>...........
             </span>
+            <button className='button s-button'>Download CV</button>
+            <div className="blur s-blur" style={{background: "#ABF1FF94"}}></div>
+        </div>
+        {/* {Right Side} */}
+        <div className="card">
+          <div>
+            <Card
+             emoji = {HeartEmoji}
+             heading = {"Glasses"}
+             detail={"details..................."}
+             />
+          </div>
         </div>
     </div>
   )

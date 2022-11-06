@@ -1,0 +1,38 @@
+.service{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+    margin-bottom: 13rem;
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.About>:nth-child(1){
+    color: #FCA61F;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.About>:nth-child(2){
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.About>:nth-child(3){
+    color: grey;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
