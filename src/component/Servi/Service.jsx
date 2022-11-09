@@ -1,9 +1,9 @@
-import React from 'react'
-import './Service.css'
-import HeartEmoji from '../../img/heartemoji.png'
-import Glasses from "../../img/glasses.png"
-import Humble from "../../img/humble.png"
-import Card from '../Card/Card'
+import React from 'react';
+import './Service.css';
+import HeartEmoji from '../../img/heartemoji.png';
+import Glasses from "../../img/glasses.png";
+import Humble from "../../img/humble.png";
+import Card from '../Card/Card';
 
 const Service = () => {
   return (
@@ -21,16 +21,14 @@ const Service = () => {
         </div>
         {/* {Right Side} */}
         <div className="card">
-          <div>
-            <Card
-             emoji = {HeartEmoji}
-             heading = {"Glasses"}
-             detail={"details..................."}
-             />
-          </div>
+          <Card
+          emoji ={HeartEmoji}
+          heading = {"project 1"}
+          detail={"info.........."}
+          />
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Service
+export default Service;
