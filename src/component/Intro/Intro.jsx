@@ -1,15 +1,15 @@
-import React from 'react'
-import './Intro.css'
+import React from 'react';
+import './Intro.css';
 import Github from '../../img/github.png';
 import Instagram from '../../img/instagram.png';
 import Linkedin from '../../img/linkedin.png';
-import Medium from '../../img/medium.png'
-import Boy from '../../img/boy.png'
-import Vector1 from '../../img/Vector1.png'
-import Vector2 from '../../img/Vector2.png'
-import Glassimoji1 from '../../img/glassesimoji.png'
-import Thumbup from '../../img/thumbup.png'
-import Crown from '../../img/crown.png'
+import Medium from '../../img/medium.png';
+import Boy from '../../img/boy.png';
+import Vector1 from '../../img/Vector1.png';
+import Vector2 from '../../img/Vector2.png';
+import Glassimoji1 from '../../img/glassesimoji.png';
+import Thumbup from '../../img/thumbup.png';
+import Crown from '../../img/crown.png';
 import FloatingDiv from '../Floatingdiv/FloatingDiv';
 
 const Intro = () => {
@@ -62,7 +62,7 @@ const Intro = () => {
       }}></div>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

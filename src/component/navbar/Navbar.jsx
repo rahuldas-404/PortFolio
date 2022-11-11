@@ -1,5 +1,5 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import './Navbar.css';
 const Navbar = () => {
   return (
     <div className="n-wrapper">
@@ -22,7 +22,7 @@ const Navbar = () => {
             </button>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

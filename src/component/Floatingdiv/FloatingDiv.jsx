@@ -1,5 +1,5 @@
-import React from 'react'
-import './FloatingDiv.css'
+import React from 'react';
+import './FloatingDiv.css';
 
 const FloatingDiv = (props) => {
   return (
@@ -7,7 +7,7 @@ const FloatingDiv = (props) => {
         <img src={props.image}/>
         <span>{props.Text}</span> 
     </div>
-  )
-}
+  );
+};
 
-export default FloatingDiv
+export default FloatingDiv;
