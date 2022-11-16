@@ -20,7 +20,7 @@ const Service = () => {
             <a href={Resume} download>
             <button className='button s-button'>Download CV</button>
             </a>
-            <div className="blur s-blur" style={{background: "#ABF1FF94"}}></div>
+            <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
         </div>
         {/* {Right Side} */}
         <div className="cards">
@@ -52,7 +52,7 @@ const Service = () => {
             detail={"hello porject 3   3 3 3 3 3 3  ................."}
             />
           </div>
-          <div className='blur s-blur' style={{background: "var(--purple)"}}></div>
+          <div className='blur s-blur2' style={{background: "var(--purple)"}}></div>
         </div>
     </div>
   );
