@@ -15,14 +15,16 @@
 
 .About>:nth-child(1){
     color: #FCA61F;
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .About>:nth-child(2){
     color: black;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .About>:nth-child(3){
@@ -32,8 +34,8 @@
 }
 
 .s-button{
-    width: 8rem;
-    height: 2rem;
+    width: 10rem;
+    height: 3rem;
     margin-top: 1rem;
 }
 
@@ -47,9 +49,9 @@
 
 .s-blur2{
     left: 14rem;
-    top: 8rem;
+    top: 20rem;
 }
 .s-blur1{
-    top:13rem;
-    left: -18rem;
+    top:2rem;
+    left: 5rem;
 }

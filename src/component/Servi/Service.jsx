@@ -26,16 +26,16 @@ const Service = () => {
         <div className="cards">
 
           {/* {First Card} */}
-          <div style={{left: '14rem'}}>
+          <div style={{left: '28rem'}}>
              <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            detail={"Figma, Sketch, Photoshop, xch"}
             />
           </div>
 
           {/* {Second Card} */}
-          <div style={{top : "12rem", left: "-4rem"}}>
+          <div style={{top : "12rem", left: "8rem"}}>
             <Card
             emoji={Glasses}
             heading={"project 2"}
@@ -45,7 +45,7 @@ const Service = () => {
 
 
           {/* {Third Card} */}
-          <div style={{top : "19rem", left: "12rem"}}>
+          <div style={{top : "19rem", left: "25rem"}}>
             <Card
             emoji={Humble}
             heading={"project 3"}
