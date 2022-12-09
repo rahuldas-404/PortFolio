@@ -14,9 +14,10 @@ function App() {
       <Intro/>
       <Service/>
       <Experience/>
+      <TimeLine/>
       <Project/>
       <Expertise/>
-      {/* <TimeLine/> */}
+      
     </div>
   );
 }
