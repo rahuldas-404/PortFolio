@@ -1,6 +1,10 @@
 import React from "react";
-const TimeLineItem=({data})=>(
-    <div className="timelineitem">
+
+const TimeLineItem=({data})=>{
+    return(
+        
+    <div className="timeline-item">
+        
         <div className="time-line-item-content">
             <span className="tag" style={{background: data.category.color}}>
             {data.category.tag}    
@@ -17,7 +21,8 @@ const TimeLineItem=({data})=>(
 <span className="Timecircle"/>
         </div>
     </div>
-    
-);
+    // </div>
+    );
+};
 
 export default TimeLineItem;

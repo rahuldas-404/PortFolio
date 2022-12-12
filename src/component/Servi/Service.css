@@ -37,6 +37,8 @@
     width: 10rem;
     height: 3rem;
     margin-top: 1rem;
+    text-align: center;
+    font-size: 15px;
 }
 
 .cards{
