@@ -6,7 +6,6 @@ import Experience from "./component/Experience/Experience";
 import Project from "./component/Projects/Project"
 import Expertise from "./component/Expertise/Expertise";
 import TimeLine from "./component/TimeLine/TimeLine";
-
 function App() {
   return (
     <div className="App">

@@ -34,6 +34,30 @@ const data=[
         url: 'https://www.linkedin.com/in/rahul-kumar-das-52501a229/',
         text: 'Sent Connetion'
     }
+},
+{
+    text: 'jdhvdsbxb',
+    date: 'August 21 2021',
+    category: {
+        tag: 'hello',
+        color: '#CD5C5C'
+    },
+    link:{
+        url: 'https://www.linkedin.com/in/rahul-kumar-das-52501a229/',
+        text: 'Sent Connetion'
+    }
+},
+{
+    text: 'this is ehanjnv chbv',
+    date: 'August 21 2021',
+    category: {
+        tag: 'world',
+        color: '#FA8072'
+    },
+    link:{
+        url: 'https://www.linkedin.com/in/rahul-kumar-das-52501a229/',
+        text: 'Sent Connetion'
+    }
 }
 ];
 

@@ -19,7 +19,11 @@ const Intro = () => {
             <div className="i-name">
                 <span>Hello There!</span>
                 <span>This is Rahul</span>
-                <span>intro here.....................................</span>
+                <span>Passionate about Technology building with management abilities from project conceptualization to
+Implementation. I also have hands-on experience in Testing, Performance, function integration
+system, and user experience.
+In addition, I possess Multidisciplinary domain adaptability experience in real-time Product
+development.</span>
             </div>
             <button className="button i-button">More Info</button>
             <div className="i-icons">
