@@ -127,24 +127,19 @@ const TimeLine = () => {
                 
                 
                 
-
+                
                 <div className="qualification_data">
-                  <div></div>
-
-
                   <div>
-                    <span className="qualification_rounder"></span>
-                    <span className="qualification_line"></span>
-                  </div>
-
-                  <div>
-                  <h3 className="qualification_title">Open Source</h3>
+                     <h3 className="qualification_title">Open Source</h3>
                       <span className="qualification_subtitle">
-                      Hacktoberfest
-                      </span>
+                      Hacktoberfest                     </span>
                       <div className="qualification_calender">
                         <i className="uil uil-calendar-alt"></i>  October 2022
                       </div>
+                  </div>
+                  <div>
+                    <span className="qualification_rounder"></span>
+                    <span className="qualification_line"></span>
                   </div>
                 </div>
                 
