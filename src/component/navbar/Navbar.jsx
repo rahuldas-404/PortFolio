@@ -1,11 +1,18 @@
 import React from 'react';
+import Toggle from '../Toggle/Toggle';
 import './Navbar.css';
+import {themeContext} from './Context';
+
+
 const Navbar = () => {
+
+
+
   return (
     <div className="n-wrapper">
         <div className='n-left'>
             <div className="name">Rahul Kumar Das</div>
-            <span>Toggle</span>
+            <Toggle/>
         </div>
         <div className='n-right'>
             <div className="list">

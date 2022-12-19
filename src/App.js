@@ -4,8 +4,10 @@ import Intro from "./component/Intro/Intro";
 import Service from "./component/Servi/Service"
 import Experience from "./component/Experience/Experience";
 import Project from "./component/Projects/Project"
-import Expertise from "./component/Expertise/Expertise";
+// import Expertise from "./component/Expertise/Expertise";
 import TimeLine from "./component/TimeLine/TimeLine";
+import Contact from "./component/Contact/Contact";
+import Footer from "./component/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,9 @@ function App() {
       <Experience/>
       <TimeLine/>
       <Project/>
-      <Expertise/>
+      {/* <Expertise/> */}
+      <Contact/>
+      <Footer/>
       
     </div>
   );
