@@ -1,3 +1,8 @@
+.TimeLine{
+  margin-top: -7rem;
+}
+
+
 .TimeLine_container{
   max-width: 768px;
 }
@@ -21,12 +26,10 @@
   color: yellowgreen
 }
 
-
-
-
 .qualification__icon{
   font-size: 1.8rem;
   margin-right: var(--mb-0-25);
+  /* color: rgb(168, 15, 168); */
 }
 
 .qualification__active{

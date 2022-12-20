@@ -5,14 +5,20 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from '../Card/Card';
 import Resume from './Rahul Kumar Das resume org.pdf';
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
+
 
 const Service = () => {
+  const theme = useContext(themeContext);
+  const darkMode=theme.state.darkMode;
+
   return (
     <div className="service">
         {/* Left Side */}
         <div className="About">
             <span>My</span>
-            <span>Projects</span>
+            <span style={{color: darkMode? 'white':''}}>Projects</span>
             <span>
                 About........................<br>
                 </br>...........

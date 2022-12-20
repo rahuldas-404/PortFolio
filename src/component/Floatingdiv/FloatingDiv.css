@@ -12,3 +12,9 @@
 .floatingdiv>img{
     transform: scale(0.4);
 }
+
+.floatingdiv>span{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}

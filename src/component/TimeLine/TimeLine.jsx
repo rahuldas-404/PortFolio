@@ -1,6 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import "./TimeLIne.css";
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
+
 
 const TimeLine = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -8,9 +11,13 @@ const TimeLine = () => {
   const toggleTab = (index)=>{
     setToggleState(index);
   };
+
+  const theme = useContext(themeContext);
+  const darkMode=theme.state.darkMode;
+
   return (
     <section className="TimeLine section">
-        <h2 className="section__title">Time Line</h2>
+        <h2 className="section__title"  style={{color: darkMode?'white':''}}>Time Line</h2>
         <span className="section__subtitle">My Journey</span>
 
         <div className="TimeLine_container container">
@@ -23,8 +30,8 @@ const TimeLine = () => {
                   }
                   onClick={()=> toggleTab(1)}
                 >
-                <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
-                 Education
+                <i className="uil uil-graduation-cap qualification__icon" ></i>{" "}
+                 <span style={{color: darkMode?'white':''}}>Education</span>
                 </div>
 
 
@@ -36,7 +43,7 @@ const TimeLine = () => {
                   onClick={()=> toggleTab(2)}
                   >
                 <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
-                Experience
+                <span style={{color: darkMode?'white':''}}>Experience</span>
                 </div>
             </div>
             <div className="qualification_sections">

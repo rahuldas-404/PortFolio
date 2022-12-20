@@ -8,9 +8,19 @@ import Project from "./component/Projects/Project"
 import TimeLine from "./component/TimeLine/TimeLine";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
+import { useContext } from "react";
+import { themeContext } from "./Context";
 function App() {
+  const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+
   return (
-    <div className="App">
+    <div className="App"
+    style={{background: darkMode? 'black':'',
+    color: darkMode? 'white':''
+  }}
+    >
+
       <Navbar/>
       <Intro/>
       <Service/>

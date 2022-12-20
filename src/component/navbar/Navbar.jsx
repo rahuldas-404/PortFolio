@@ -1,13 +1,10 @@
 import React from 'react';
 import Toggle from '../Toggle/Toggle';
 import './Navbar.css';
-import {themeContext} from './Context';
+// import {themeContext} from './Context';
 
 
 const Navbar = () => {
-
-
-
   return (
     <div className="n-wrapper">
         <div className='n-left'>
