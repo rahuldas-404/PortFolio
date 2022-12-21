@@ -3,6 +3,9 @@ import "./Contact.css";
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import { useState } from 'react';
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
+
 
 const Contact = () => {
 
@@ -22,6 +25,9 @@ const[done, setDone]=useState(false)
         });
     };
 
+    const theme = useContext(themeContext);
+    const darkMode=theme.state.darkMode;
+
 
 
   return (
@@ -30,7 +36,7 @@ const[done, setDone]=useState(false)
          <div className="awesome">
                 <span>Get in touch</span>
                 <br></br>
-                <span>Contact Me</span>
+                <span style={{color: darkMode?'white':''}}>Contact Me</span>
                 <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
             </div>
         </div>
@@ -41,7 +47,7 @@ const[done, setDone]=useState(false)
           <input type="email" name="user_email" className="user" placeholder="Your Email i'd"/>
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
-          <span >{done && "Thank You For Reaching Out"}</span>
+          <span style={{color: darkMode?'yellowgreen':''}}>{done && "Thank You For Reaching Out"}</span>
                 <div
                 className="blur c-blur1"
                 style={{background: "var(--purple"}}
