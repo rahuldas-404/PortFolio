@@ -15,7 +15,15 @@ import FloatingDiv from '../Floatingdiv/FloatingDiv';
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 
+import { motion } from '../../../node_modules/framer-motion/dist/framer-motion';
+
 const Intro = () => {
+
+  const transition={
+    duration: 2,
+    type:'spring'
+  }
+
 
   const theme = useContext(themeContext);
   const darkMode=theme.state.darkMode;
@@ -53,7 +61,11 @@ development.</span>
           <img src={Vector1}/>
           <img src={Vector2}/>
           <img src={Boy}/>
-          <img src={Glassimoji1}/>
+          <motion.img
+          initial={{left: '-36%'}}
+          whileInView={{left: '-24%'}}
+          transition={transition}
+          src={Glassimoji1}/>
         
         <div style={{top: '-4%', left: '68%'}}>
            <FloatingDiv image={Crown} Text="Cool"/>
