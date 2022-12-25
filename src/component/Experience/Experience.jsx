@@ -10,7 +10,7 @@ const Experience = () => {
 
 
   return (
-    <div className="experience">
+    <div className="experience" id='Experience'>
         <div className="attachment">
             <div className="circle" style={{color: darkMode?'var(--orange)':''}}>1+</div>
                 <span>yo!</span>

@@ -66,13 +66,24 @@ development.</span>
           whileInView={{left: '-24%'}}
           transition={transition}
           src={Glassimoji1}/>
-        
-        <div style={{top: '-4%', left: '68%'}}>
+
+
+        <motion.div
+        initial={{top: '25rem',left: '18rem'}}
+        whileInView={{left:'0rem'}}
+        transition={transition}
+        style={{top: '18rem', left: '0rem'}}>
+        < FloatingDiv image={Thumbup} Text="Hello World"/>
+        </motion.div>
+
+
+        <motion.div
+        initial={{top: '-4%',left: '76%'}}
+        whileInView={{left:'68%'}}
+        transition={transition}
+        style={{top: '-4%', left: '68%'}}>
            <FloatingDiv image={Crown} Text="Cool"/>
-        </div>
-        <div style={{top: '18rem', left: '0rem'}}>
-          < FloatingDiv image={Thumbup} Text="Hello World"/>
-        </div>
+        </motion.div>
 
         <div className="blur" style={{background: "rgb (238 210 255)"}}></div>
 

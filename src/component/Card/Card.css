@@ -92,3 +92,11 @@ button {
 .c-button:active {
   top: 2px;
 }
+
+
+
+@media screen and (max-width: 480px){
+  .card{
+    width: auto;
+  }
+}

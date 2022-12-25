@@ -18,8 +18,19 @@
     color: azure;
 }
 
+
+
 .f-icon{
     display: flex;
     gap: 3rem;
 
 }
+
+
+
+
+@media screen and (max-width: 480px){
+    .f-content{
+      transform: scale(.5);
+    }
+  }

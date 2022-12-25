@@ -16,7 +16,7 @@ const TimeLine = () => {
   const darkMode=theme.state.darkMode;
 
   return (
-    <section className="TimeLine section">
+    <section className="TimeLine section" id='TimeLine'>
         <h2 className="section__title"  style={{color: darkMode?'white':''}}>Time Line</h2>
         <span className="section__subtitle">My Journey</span>
 

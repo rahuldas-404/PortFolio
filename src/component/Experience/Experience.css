@@ -53,3 +53,11 @@
     z-index: -1;
     box-sizing: var(--boxShadow);
 }
+
+
+
+@media screen and (max-width: 480px) {
+    .experience{
+        transform: scale(0.7);
+    }
+}
